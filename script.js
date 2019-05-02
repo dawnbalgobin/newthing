@@ -7,13 +7,15 @@ const words = ["sdfas", "sged", "bfdshd", "cat", "ouojnlno", "wetew", "caoasodia
 //wrap function in a loop, based on dynamic length user will input
 //style this bish
 let userInput = document.getElementById("userSelect").value;
-// console.log(userInput);
+console.log(userInput);
 
 const writeWords = () => {
     words.forEach(function() {
         let wordLength = words.length;
         let rando = words[Math.floor(Math.random() * wordLength)];
-        document.write(`${rando} `);
+        // console.log(rando);
+        document.getElementById("lorem").innerHTML = rando;
+         
     });  
 }
 writeWords();
