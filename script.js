@@ -4,7 +4,7 @@ const getForm = document.getElementById("userForm");
 getForm.addEventListener("submit", function(e){
     e.preventDefault();
 
-const words = ["sdfas", "sged", "bfdshd", "cat", "ouojnlno", "wetew", "caoasodias", "s", "dc", "tywywunmwah", "nwo", "coagi", "cq", "mnohadoag", "fpeewt", "ui", "baodfnaoegw", "bfdsdhs"];
+const words = ["riddikulus", "obliviate,", "Sectumsempra!", "Avada Kedavra!", "alohomora", "lumos;", "Expelliarmus!", "wingardium leviosa,", "accio", "aguamenti,", "confundo", "crucio", "nox;", "legilimens", "petrificus totalus", "finestra", "imperio", "vera verto"];
 
 //wrap function in a loop, based on dynamic length user will input
 let userInput = document.getElementById("userSelect").value;
