@@ -10,7 +10,7 @@ const words = ["sdfas", "sged", "bfdshd", "cat", "ouojnlno", "wetew", "caoasodia
 //style this bish
 let userInput = document.getElementById("userSelect").value;
 // console.log(userInput);
-for(let i = 0; i <= userInput; i++) {
+for(let i = 1; i <= userInput; i++) {
     console.log(i);
     //returns userInput number
 
@@ -19,8 +19,7 @@ const writeWords = () => {
         let wordLength = words.length;
         let rando = words[Math.floor(Math.random() * wordLength)];
         console.log(rando);
-        document.getElementById("lorem").innerHTML = rando;
-         
+        document.getElementById("lorem").innerHTML += `${rando}\n`;
     });  
 }
 writeWords();
