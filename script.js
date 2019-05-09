@@ -7,7 +7,6 @@ getForm.addEventListener("submit", function(e){
 const words = ["sdfas", "sged", "bfdshd", "cat", "ouojnlno", "wetew", "caoasodias", "s", "dc", "tywywunmwah", "nwo", "coagi", "cq", "mnohadoag", "fpeewt", "ui", "baodfnaoegw", "bfdsdhs"];
 
 //wrap function in a loop, based on dynamic length user will input
-//style this bish
 let userInput = document.getElementById("userSelect").value;
 // console.log(userInput);
 for(let i = 1; i <= userInput; i++) {
