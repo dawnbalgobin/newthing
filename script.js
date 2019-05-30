@@ -13,15 +13,15 @@ for(let i = 1; i <= userInput; i++) {
     console.log(i);
     //returns userInput number
 
-const writeWords = () => {
+// const writeWords = () => {
     words.forEach(function() {
         let wordLength = words.length;
         let rando = words[Math.floor(Math.random() * wordLength)];
         console.log(rando);
         document.getElementById("lorem").innerHTML += `${rando}\n`;
     });  
-}
-writeWords();
+// }
+// writeWords();
 }
 
 });
