@@ -2,9 +2,21 @@ body {
     font-family: sans-serif;
     text-align: center;
 }
-h1 {
-    font-size: 26px;
+header {
+    margin: 0;
+    padding: 2% 0;
+    background-color: whitesmoke;
+
+    h1 {
+        font-size: 26px;
+        color: darkblue;
+    }
 }
-form {
-    padding: 2%;
+.para {
+    margin: 1%;
+    
+    form {
+        padding: 2%;
+    }
 }
+
