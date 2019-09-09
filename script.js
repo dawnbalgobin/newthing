@@ -4,13 +4,13 @@ const getForm = document.getElementById("userForm");
 getForm.addEventListener("submit", function(e){
     e.preventDefault();
 
-const words = ["riddikulus", "obliviate,", "Sectumsempra!", "Avada Kedavra!", "alohomora", "lumos;", "Expelliarmus!", "wingardium leviosa,", "accio", "aguamenti,", "confundo", "crucio", "nox;", "legilimens", "petrificus totalus", "finestra", "imperio", "vera verto"];
+const words = ["riddikulus", "obliviate,", "sectumsempra", "avada kedavra", "alohomora", "lumos;", "expelliarmus!", "wingardium leviosa,", "accio", "aguamenti,", "confundo", "crucio", "nox;", "legilimens", "petrificus totalus", "finestra", "imperio", "vera verto"];
 
 //wrap function in a loop, based on dynamic length user will input
 let userInput = document.getElementById("userSelect").value;
 // console.log(userInput);
 for(let i = 1; i <= userInput; i++) {
-    console.log(i);
+    console.log(i); 
     //returns userInput number
 
 // const writeWords = () => {
